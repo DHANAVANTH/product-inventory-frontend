@@ -5,7 +5,7 @@ import Home from "./components/home";
 import Addproduct from "./components/addproduct";
 import Viewproduct from "./components/viewproduct";
 
-import Updateanddeleteproducts from "./components/updateanddeleteproduct";
+import Updatedeleteproducts from "./components/updateanddeleteproduct";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/add" element={<Addproduct/>} />
           <Route path="/view" element={<Viewproduct/>} />
-          <Route path="/updatedelete" element={<Updateanddeleteproducts/>} />
+          <Route path="/updatedelete" element={<Updatedeleteproducts/>} />
           <Route path="/home" element={<Home/>}/>
         </Routes>
       </div>
